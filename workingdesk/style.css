@@ -1,0 +1,413 @@
+h1 {
+	display: flex;
+	font-size: 20px;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.stationery {
+	color: brown;
+	font-size: 20px;
+	font-weight: light;
+	background-color: #EDD8B5;
+	width: 20vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.monitor {
+	color: brown;
+	font-size: 20px;
+	font-weight: light;
+	background-color: #EDD8B5;
+	width: 60vw;
+	height: 40vh;
+	position: absolute;
+	top: 0;
+	left: 20vw;
+	z-index: -1; 
+}
+
+.work {
+	color: brown;
+	font-size: 20px;
+	font-weight: light;
+	background-color: #EDD8B5;
+	width: 60vw;
+	height: 60vh;
+	position: absolute;
+	top: 40vh;
+	left:20vw;
+	z-index: -1;
+}
+
+.telephone {
+	color: brown;
+	font-size: 20px;
+	font-weight: light;
+	background-color: #EDD8B5;
+	width: 20vw;
+	height: 100vh;
+	position: absolute;
+	top: 0vh;
+	right:0;
+	z-index: -1;
+}
+
+
+
+
+.stationery article {
+	/*background-color: beige;*/
+	font-size: 10px;
+	color: ghostwhite;
+}
+.sanitizer {
+	background-color: #C8D2DC;
+	position: absolute;
+	width: 20%;
+	height: 10%;
+	border-radius: 50%;
+	top: 5%;
+	left:35%;
+}
+.calendar {
+	background-color: #5B90C7;
+	position: absolute;
+	width: 45%;
+	height: 10%;
+	top: 15%;
+	left:10%;
+}
+.stapler {
+	background-color: #EDEDED;
+	position: absolute;
+	width: 30%;
+	height: 5%;
+	top: 28%;
+	left:20%;
+}
+.drawer {
+	background-color: #EDEDED;
+	position: absolute;
+	width: 40%;
+	height: 30%;
+	top: 5%;
+	right:0%;
+}
+.tissue {
+	background-color: #88B390;
+	position: absolute;
+	width: 30%;
+	height: 15%;
+	top: 15%;
+	right:5%;
+}
+.wet-wipes {
+	background-color: #B7E2F7;
+	position: absolute;
+	width: 40%;
+	height: 20%;
+	top: 40%;
+	right:10%;
+}
+
+
+
+
+.monitor article {
+	/*background-color: beige;*/
+	font-size: 10px;
+	color: ghostwhite;
+}
+.l-stand {
+	background-color: #DABB86;
+	position: absolute;
+	width: 48%;
+	height: 70%;
+	bottom: 0%;
+	left:0%;
+}
+.l-monitor {
+	background-color: #615D56;
+	position: absolute;
+	width: 20%;
+	height: 40%;
+	top: 40%;
+	left:15%;
+}
+.l-screen {
+	background-color: #615D56;
+	position: absolute;
+	width: 40%;
+	height: 10%;
+	top: 50%;
+	left:5%;
+}
+.r-stand {
+	background-color: #DABB86;
+	position: absolute;
+	width: 48%;
+	height: 70%;
+	bottom: 0%;
+	right:0%;
+}
+.r-monitor {
+	background-color: #615D56;
+	position: absolute;
+	width: 20%;
+	height: 40%;
+	top: 40%;
+	right:15%;
+}
+.r-screen {
+	background-color: #615D56;
+	position: absolute;
+	width: 40%;
+	height: 10%;
+	top: 50%;
+	right:5%;
+}
+
+
+
+.work article {
+	/*background-color: beige;*/
+	font-size: 10px;
+	color: ghostwhite;
+}
+.pencil-case {
+	background-color: #E58391;
+	position: absolute;
+	width: 10%;
+	height: 25%;
+	border-radius: 50%;
+	top: 0%;
+	left:0%;
+}
+.pencil-case-in {
+	background-color: #B84758;
+	position: absolute;
+	width: 8%;
+	height: 20%;
+	border-radius: 50%;
+	top: 2.5%;
+	left:1%;
+}
+.sharpener {
+	background-color: #FF9E27;
+	position: absolute;
+	width: 6%;
+	height: 15%;
+	border-radius: 50%;
+	top: 25%;
+	left:6%;
+}
+.sharpener-in {
+	background-color: #88B390;
+	position: absolute;
+	width: 2.6%;
+	height: 7%;
+	border-radius: 50%;
+	top: 29%;
+	left:7.8%;
+}
+.memo-group {
+	background-color: #C7975B;
+	position: absolute;
+	width: 16%;
+	height: 20%;
+	top: 0%;
+	left:12%;
+}
+.memo-r {
+	background-color: #E58391;
+	position: absolute;
+	width: 10%;
+	height: 3%;
+	top: 5%;
+	left:15%;
+}
+.memo-y {
+	background-color: #FCEE6E;
+	position: absolute;
+	width: 6%;
+	height: 3%;
+	top: 10%;
+	left:14%;
+}
+.memo-b {
+	background-color: #8FEAE9;
+	position: absolute;
+	width: 4%;
+	height: 3%;
+	top: 10%;
+	left:22%;
+}
+.smartphone {
+	background-color: #C1BEBA;
+	position: absolute;
+	width: 6%;
+	height: 30%;
+	border-radius: 8%;
+	top: 50%;
+	left:20%;
+}
+.smartphone-in {
+	background-color: #615D56;
+	position: absolute;
+	width: 5.2%;
+	height: 28%;
+	border-radius: 8%;
+	bottom: 21%;
+	left:20.4%;
+}
+.laptop {
+	background-color: #C1BEBA;
+	position: absolute;
+	width: 24%;
+	height: 40%;
+	border-radius: 8%;
+	top: 25%;
+	left:36%;
+}
+.keyboard {
+	background-color: #615D56;
+	position: absolute;
+	width: 30%;
+	height: 15%;
+	top: 0%;
+	right:10%;
+}
+.post-it {
+	background-color: #8FEAE9;
+	position: absolute;
+	width: 6%;
+	height: 15%;
+	top: 25%;
+	right:30%;
+}
+.pen {
+	background-color: #FF9E27;
+	position: absolute;
+	width: 1%;
+	height: 25%;
+	border-radius: 20%;
+	top: 25%;
+	right:27%;
+}
+.coffee {
+	background-color: #EDEDED;
+	position: absolute;
+	width: 10%;
+	height: 25%;
+	border-radius: 50%;
+	bottom: 15%;
+	right:10%;
+}
+.coffee-in {
+	background-color: #6A593B;
+	position: absolute;
+	width: 8%;
+	height: 20%;
+	border-radius: 50%;
+	bottom: 17%;
+	right:10.9%;
+}
+.mouse {
+	background-color: #EABBD2;
+	position: absolute;
+	width: 6%;
+	height: 25%;
+	border-radius: 40%;
+	top: 15%;
+	right:2%;
+}
+.mouse-cord {
+	background-color: #ffffff;
+	position: absolute;
+	width: 0.3%;
+	height: 15%;
+	top: 0%;
+	right:5%;
+}
+.mouse-wheel {
+	background-color: #ffffff;
+	position: absolute;
+	width: 0.3%;
+	height: 5%;
+	top: 20%;
+	right:5%;
+}
+
+
+
+
+.telephone article {
+	/*background-color: beige;*/
+	font-size: 10px;
+	color: ghostwhite;
+}
+.phone {
+	background-color: #EDEDED;
+	position: absolute;
+	width: 75%;
+	height: 26%;
+	border-radius: 8%;
+	top: 22%;
+	left:12.5%;
+}
+.phone-screen {
+	background-color: #C1BEBA;
+	position: absolute;
+	width: 37.5%;
+	height: 10%;
+	border-radius: 8%;
+	top: 20%;
+	left:40%;
+}
+.handset {
+	background-color: #C1BEBA;
+	position: absolute;
+	width: 17%;
+	height: 21%;
+	border-radius: 8%;
+	top: 24%;
+	left:20%;
+}
+.airpods-cord {
+	background-color: #615D56;
+	position: absolute;
+	width: 2%;
+	height: 20%;
+	bottom: 0%;
+	left:24%;
+}
+.airpods {
+	background-color: #ffffff;
+	position: absolute;
+	width: 20%;
+	height: 6%;
+	border-radius: 24%;
+	bottom: 19%;
+	left:15%;
+}
+.light {
+	background-color: #5DED58;
+	position: absolute;
+	width: 1%;
+	height: 0.3%;
+	border-radius: 50%;
+	bottom: 22%;
+	left:25%;
+}
